@@ -13,28 +13,33 @@
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
-/**
- * Configuration for: URL
- * Here we auto-detect your applications URL and the potential sub-folder. Works perfectly on most servers and in local
- * development environments (like WAMP, MAMP, etc.). Don't touch this unless you know what you do.
- *
- * URL_PUBLIC_FOLDER:
- * The folder that is visible to public, users will only have access to that folder so nobody can have a look into
- * "/application" or other folder inside your application or call any other .php file than index.php inside "/public".
- *
- * URL_PROTOCOL:
- * The protocol. Don't change unless you know exactly what you do.
- *
- * URL_DOMAIN:
- * The domain. Don't change unless you know exactly what you do.
- *
- * URL_SUB_FOLDER:
- * The sub-folder. Leave it like it is, even if you don't use a sub-folder (then this will be just "/").
- *
- * URL:
- * The final, auto-detected URL (build via the segments above). If you don't want to use auto-detection,
- * then replace this line with full URL (and sub-folder) and a trailing slash.
- */
+class Config {
+    public static $browseConfigUrls = array(
+        "cars" => 'http://todo',
+        "bikes" => 'http://todo',
+        "religious" => 'http://todo'
+    );
+
+    public static $browseConfigValues = array(
+        "cars" => array(
+            "lambho" => array(
+                "thumb" => 'https://s.yimg.com/os/publish-images/autos/2014-10-02/1bb19190-4a18-11e4-a6e8-e52abde8a31d_Lamborghini-Asterion-Concept-top2.jpg',
+                "url" => 'http://www.wired.com/wp-content/uploads/2014/10/Lamborghini-Asterion-04.jpg'),
+            "santro zip+" => array(
+                "thumb" => 'http://www.adpost.com/classifieds/upload/in/vehicles/in_vehicles.1371.1.jpg',
+                "url" => 'http://www.adpost.com/classifieds/upload/in/vehicles/in_vehicles.1371.1.jpg')),
+        "bikes" => array(
+            "lambho" => array(
+                "thumb" => 'https://s.yimg.com/os/publish-images/autos/2014-10-02/1bb19190-4a18-11e4-a6e8-e52abde8a31d_Lamborghini-Asterion-Concept-top2.jpg',
+                "url" => 'http://www.wired.com/wp-content/uploads/2014/10/Lamborghini-Asterion-04.jpg'),
+            "santro zip+" => array(
+                "thumb" => 'http://www.adpost.com/classifieds/upload/in/vehicles/in_vehicles.1371.1.jpg',
+                "url" => 'http://www.adpost.com/classifieds/upload/in/vehicles/in_vehicles.1371.1.jpg')
+        ),
+        "religious" => 'http://todo'
+    );
+
+}
 
 define('URL_PUBLIC_FOLDER', 'public');
 define('URL_PROTOCOL', 'http://');

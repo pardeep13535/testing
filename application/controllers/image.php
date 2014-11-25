@@ -8,7 +8,7 @@
  * This is really weird behaviour, but documented here: http://php.net/manual/en/language.oop5.decon.php
  *
  */
-class Browse extends Controller
+class Image extends Controller
 {
     /**
      * PAGE: index
@@ -20,7 +20,6 @@ class Browse extends Controller
         require APP . 'views/_templates/header.php';
 
         // Get the category from url get param and load corresponding config and display those images.
-
         require APP . 'views/browse/browseView.php';
         require APP . 'views/_templates/footer.php';
     }

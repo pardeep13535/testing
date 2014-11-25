@@ -3,23 +3,23 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #4293e8;
+    /*background-color: #4293e8;*/
 }
 
 body {
     font-size: 15px;
-    background-color: #4293e8;
+    background-color: #c1e8c9;
 }
 
 table {
     font-size: 13px;
 }
 
-.container {
-    border: 3px solid #000;
-    padding: 20px;
-    margin: 10px;
-}
+/*.container {*/
+    /*border: 3px solid #000;*/
+    /*padding: 20px;*/
+    /*margin: 10px;*/
+/*}*/
 
 .where-are-we-box {
     position: relative;
@@ -29,3 +29,23 @@ table {
     padding: 10px 15px;
     display: inline-block;
 }
+
+#imgbox
+{
+    vertical-align : middle;
+    /*orientation: middle;*/
+    /*margin-left: -40%;*/
+    
+    position : absolute;
+    border: 1px solid #999;
+    background-color: rgba(144,144,144,1);
+   /* background : #FFFFFF;
+    filter: Alpha(Opacity=100);      */
+    visibility : hidden;
+    /*height : 500px;*/
+    /*width : 500px;*/
+    z-index : 0;
+    overflow : hidden;
+    text-align : center;
+}
+

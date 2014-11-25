@@ -10,7 +10,7 @@ class Application
 
     /** @var array URL parameters */
     private $url_params = array();
-    private $debug=true;
+    private $debug=false;
 
     /**
      * "Start" the application:
