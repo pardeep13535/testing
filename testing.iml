@@ -4,29 +4,13 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="$MODULE_DIR$/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="PHP">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/composer" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/composer" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="PHARS">
-        <CLASSES>
-          <root url="phar://$MODULE_DIR$/composer.phar" />
-        </CLASSES>
+        <CLASSES />
         <JAVADOC />
-        <SOURCES>
-          <root url="phar://$MODULE_DIR$/composer.phar" />
-        </SOURCES>
+        <SOURCES />
       </library>
     </orderEntry>
   </component>
