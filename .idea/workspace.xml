@@ -2,48 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd863588-4572-4018-85de-3482630d7616" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/videosPOI.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/config/videos.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/ImageLibrary.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/images/4757.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/magnify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/cache/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_nav_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_nav_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_shadow_e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_shadow_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_shadow_ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_shadow_nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_shadow_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_shadow_se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_shadow_sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_shadow_w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_title_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_title_main.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_title_over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancy_title_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancybox-x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancybox-y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/fancybox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/fancybox/jquery.fancybox-1.3.1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/jquery-1.4.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/jquery.fancybox-1.3.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/jquery.mousewheel-3.0.2.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/scripts/timthumb.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery/thumbs/4757.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/BBT_logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/videosBBT.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/config/videosPOI.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/config/videosBBT.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/config/videosPOI.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/POI_logo2.png" afterPath="$PROJECT_DIR$/data/POI_logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/BBT.jpg" afterPath="$PROJECT_DIR$/data/BBT.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/POI.jpg" afterPath="$PROJECT_DIR$/data/POI.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/browse/browseView.php" afterPath="$PROJECT_DIR$/application/views/browse/browseView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/_templates/header.php" afterPath="$PROJECT_DIR$/application/views/_templates/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/home/mainView.php" afterPath="$PROJECT_DIR$/application/views/home/mainView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/_templates/footer.php" afterPath="$PROJECT_DIR$/application/views/_templates/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mysite.iws" />
@@ -107,65 +76,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="browseView.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="browseView.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/browse/browseView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="495">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.762533" vertical-offset="41" max-vertical-offset="525">
+              <caret line="22" column="101" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
-                <marker date="1417964530000" expanded="true" signature="375:402" placeholder="..." />
-                <marker date="1417964530000" expanded="false" signature="785:810" placeholder="..." />
+                <marker date="1418149752000" expanded="true" signature="459:486" placeholder="..." />
+                <marker date="1418149752000" expanded="false" signature="893:918" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="990">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="play.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/play.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="870">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="720">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="465">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -173,18 +92,57 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/_templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="390">
-              <caret line="17" column="96" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="96" />
+            <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="390">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainView.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/home/mainView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+              <caret line="6" column="66" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="videosBBT.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/config/videosBBT.json">
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/_templates/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26785713" vertical-offset="0" max-vertical-offset="885">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
+              <caret line="13" column="63" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.gif" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/_templates/logo.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videosBBT.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/videosBBT.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="945">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videosPOI.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/videosPOI.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.1538461" vertical-offset="0" max-vertical-offset="1200">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -205,7 +163,6 @@
       <list>
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/application/core/controller.php" />
-        <option value="$PROJECT_DIR$/application/views/_templates/footer.php" />
         <option value="$PROJECT_DIR$/application/controllers/home.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
@@ -222,13 +179,16 @@
         <option value="$PROJECT_DIR$/application/views/browse/ImageLibrary.php" />
         <option value="$PROJECT_DIR$/play.html" />
         <option value="$PROJECT_DIR$/application/config/videos.json" />
-        <option value="$PROJECT_DIR$/application/views/home/mainView.php" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/application/config/videosBBT.json" />
-        <option value="$PROJECT_DIR$/application/views/browse/browseView.php" />
         <option value="$PROJECT_DIR$/play.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/application/config/videosBBT.json" />
+        <option value="$PROJECT_DIR$/application/config/videosBBT.php" />
+        <option value="$PROJECT_DIR$/application/config/videosPOI.php" />
+        <option value="$PROJECT_DIR$/application/views/_templates/footer.php" />
         <option value="$PROJECT_DIR$/application/views/_templates/header.php" />
+        <option value="$PROJECT_DIR$/application/views/home/mainView.php" />
+        <option value="$PROJECT_DIR$/application/views/browse/browseView.php" />
       </list>
     </option>
   </component>
@@ -326,7 +286,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="browse" />
+              <option name="myItemId" value="_templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -775,12 +735,12 @@
       <workItem from="1418008627174" duration="1196000" />
       <workItem from="1418035544269" duration="313000" />
       <workItem from="1418104085517" duration="140000" />
-      <workItem from="1418107303141" duration="796000" />
+      <workItem from="1418107303141" duration="5842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55196000" />
+    <option name="totallyTimeSpent" value="60242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="705" extended-state="6" />
@@ -881,7 +841,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="390">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,7 +855,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/videosBBT.json">
+    <entry file="file://$PROJECT_DIR$/application/config/videosBBT.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="885">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -901,7 +863,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/videosBBT.json">
+    <entry file="file://$PROJECT_DIR$/application/config/videosBBT.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1155">
           <caret line="16" column="61" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
@@ -965,7 +927,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="390">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -989,8 +953,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding>
-            <marker date="1417964530000" expanded="true" signature="375:402" placeholder="..." />
-            <marker date="1417964530000" expanded="false" signature="785:810" placeholder="..." />
+            <marker date="1418149752000" expanded="true" signature="459:486" placeholder="..." />
+            <marker date="1418149752000" expanded="false" signature="893:918" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1045,11 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/_templates/logo.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/core/controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="840">
@@ -1068,13 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2704918" vertical-offset="105" max-vertical-offset="1755">
           <caret line="18" column="46" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/_templates/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="285">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1120,13 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/browse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5739796" vertical-offset="120" max-vertical-offset="885">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/browse/ImageLibrary.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1140">
@@ -1134,21 +1079,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/BBT.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/POI.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/home/mainView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <caret line="6" column="75" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/logo.gif">
@@ -1156,16 +1089,25 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/videosPOI.json">
+    <entry file="file://$PROJECT_DIR$/application/config/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1155">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.69849247" vertical-offset="228" max-vertical-offset="885">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/play.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4878049" vertical-offset="0" max-vertical-offset="369">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="990">
+        <state vertical-scroll-proportion="0.9831731" vertical-offset="71" max-vertical-offset="990">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
           <folding />
         </state>
@@ -1179,17 +1121,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/play.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="720">
+        <state vertical-scroll-proportion="0.08163265" vertical-offset="328" max-vertical-offset="720">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding />
         </state>
@@ -1200,44 +1134,75 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="465">
+        <state vertical-scroll-proportion="0.2685422" vertical-offset="0" max-vertical-offset="465">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/Config.php">
+    <entry file="file://$PROJECT_DIR$/application/config/videosPOI.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69849247" vertical-offset="228" max-vertical-offset="885">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        <state vertical-scroll-proportion="-1.1538461" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/videosBBT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="945">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/_templates/logo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/browse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.502551" vertical-offset="148" max-vertical-offset="885">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/_templates/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/home/mainView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/_templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="390">
-          <caret line="17" column="96" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="96" />
-          <folding />
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="390">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/browse/browseView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="495">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.762533" vertical-offset="41" max-vertical-offset="525">
+          <caret line="22" column="101" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
-            <marker date="1417964530000" expanded="true" signature="375:402" placeholder="..." />
-            <marker date="1417964530000" expanded="false" signature="785:810" placeholder="..." />
+            <marker date="1418149752000" expanded="true" signature="459:486" placeholder="..." />
+            <marker date="1418149752000" expanded="false" signature="893:918" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/videosBBT.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26785713" vertical-offset="0" max-vertical-offset="885">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
