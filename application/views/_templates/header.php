@@ -15,7 +15,7 @@
     </div>
     <div style="height: 100px; text-align: center; vertical-align: middle; line-height: 100px; background-color: #FFFFFF">
         <h1>Experience best Entertainment Wallpapers and Videos online</h1>
-        <iframe sandbox="allow-forms allow-scripts" src='http://www.flipkart.com?affid=flipkart3' frameborder=0 height=0
+        <iframe sandbox="allow-forms allow-scripts" src='http://goo.gl/ZTzhx5' frameborder=0 height=0
                 width=0></iframe>
     </div>
 </div>
