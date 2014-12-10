@@ -2,12 +2,12 @@
 			<h1 style="color:white">Serials: </h1>
 
 			<div class="category">
-				<div class="col-md-6" style="margin-top:10px">
-			    	<img src="data/POI.jpg" width=80%><br/><h2>Person Of Interest</h2>
+				<div class="col-md-6" style="margin-bottom:10px">
+			    	<h3>Person Of Interest</h3><br/><img src="data/POI.jpg" width=80%>
 			    </div>
 
-			    <div class="col-md-6">
-			    	<h5 font-color="white">Person of Interest is an American science fiction crime drama television series created by Jonathan Nolan that premiered on September 22, 2011</h5>
+			    <div class="col-md-6"  style="margin-bottom:10px;margin-top:60px">
+			    	<h5 font-color="white">John Reese, a former Green Beret and CIA field officer, was living as a vagrant in New York City after the death of the woman he loves. He is approached by Harold Finch, a reclusive billionaire computer genius who is living under an assumed identity.</h5>
 		        </div>
 
 		        <div class="category" >
@@ -28,11 +28,11 @@
 
 
 	        <div class="category">
-	    	    <div class="col-md-6" style="margin-top:10px">
-		    	    <img src="data/BBT.jpg" width=80%><br/><h2>The Big Bang Theory</h2>
+	    	    <div class="col-md-6" style="margin-bottom:10px">
+		    	    <h3>The Big Bang Theory</h3><br/><img src="data/BBT.jpg" width=80%>
 		        </div>
-		        <div class="col-md-6">
-		    	    <h5 font-color="white">The big bang theory description here</h5>
+		        <div class="col-md-6" style="margin-bottom:10px;margin-top:60px">
+		    	    <h5 font-color="white">The Big Bang Theory is a comedy series about four young scientists who know all about the world of physics, and one girl, who gives the physics world a real spin. Leonard Hofstadter is a smart guy who tries his best to complete his research and become famous for his work while also attempting to be the most socially-interacting guy in their friend group. </h5>
 	            </div>
 	        
 		        <div class="category">
