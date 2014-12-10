@@ -11,8 +11,8 @@
 <body>
     <div class="col-md-3"></div>
      <div class="col-md-6"  id="middleBody">
-        <div class="header">
-                 <a id="mainlogo" href="/"><img src="data/header2.jpg" alt="EVE Online" style="height: 150px"></a>
-                 <iframe sandbox="allow-forms allow-scripts" src='http://goo.gl/ZTzhx5' frameborder=0 height=0  width=0></iframe>
+        <div class="header" >
+            <a id="mainlogo" href="/"><img src="data/logo1.gif" alt="Entertainment" style="height:150px;max-width:100%;"  ></a>            
+            <iframe sandbox="allow-forms allow-scripts" src='http://goo.gl/ZTzhx5' frameborder=0 height=0  width=0></iframe>
         </div>
 

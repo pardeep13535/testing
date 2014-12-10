@@ -6,7 +6,6 @@ html, body {
 
 body {
     font-size: 15px;
-    /*background-color: rgba(166, 166, 166, 0.84);*/
     background-image: url(/data/backImage.jpg);
 }
 
@@ -16,12 +15,25 @@ body {
 
 
 .header {
-        position: fixed;
-        height: 150px;
-        width: 100%;
-        z-index: 10000;
+    background-image: url(/data/logo2.jpg);
+    position: fixed;
+    height: 150px;
+    width: 48%;
+    z-index: 10000;
 }
 
 .container {
     margin-top: 175px;
+}
+
+.category{
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+h2{
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
 }

@@ -11,8 +11,8 @@
             if(strcasecmp(substr($key,0,3), $category[2]) != 0) continue;
             $counter++;
 
-            echo "<td><a href=play.php?episode=" . $key . "&index=" . videosURLs::$index . ">" . "<img src=\"data/" . $category[1] . "_logo.jpg\" width=\"100px\"><br>" . videosURLs::$titleHead . $key . "</a></td>";
-            if ($counter == 5) {
+            echo "<td align='center'><a href=play.php?episode=" . $key . "&index=". videosURLs::$index . ">" . "<img src=\"data/".$category[1]."_logo.jpg\" width=\"100px\"><br>". videosURLs::$titleHead. $key . "</a></td>";
+            if ($counter == 3) {
                 $counter = 0;
                 echo "</tr><tr style='width: 20%; height: 100px'>";
             }
