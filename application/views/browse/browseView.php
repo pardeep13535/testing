@@ -5,7 +5,7 @@
     $file = ROOT . "/application/config/" . $category[0] . $category[1] . ".php";
     if (file_exists($file)) {
         require_once $file;
-        echo "<div ><table class='table table-bordered' ><tr>";
+        echo "<div style='margin:10px'><table class='table table-bordered' ><tr>";
         $counter = 0;
         foreach (videosURLs::$urlConfig as $key => $val) {
             if(strcasecmp(substr($key,0,3), $category[2]) != 0) continue;

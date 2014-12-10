@@ -7,7 +7,7 @@ require_once "application/config/".$classToInclude.".php";
 ?>
 
 <head></head>
-<div style="margin-top:175px">
+<div style="margin:10px">
 	<div >
 		<iframe src="<?php echo videosURLs::$urlConfig[$episode]['url'] ?>" width="100%" height="55%" frameborder="0" allowfullscreen cc="1"></iframe>
 	</div>
