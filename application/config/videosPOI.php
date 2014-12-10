@@ -73,5 +73,74 @@ class videosURLs {
         ),
         "S01E23" => array(
             "url" => "https://drive.google.com/file/d/0BxaT3xbG4soIR3B3VWlURjVkM00/preview"
-        ));
+        ),
+
+
+        "S02E01" => array(
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDYUJYREp5UHlNUXc/preview"
+        ),
+        "S02E02" => array(
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDd19za1o4al9Ia1k/preview"
+        ),
+        "S02E03" => array(
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDZWlCMEJ0T05GVWM/preview"
+        ),
+        "S02E04" => array(
+            "url" => "https://drive.google.com/file/d/0BzVJisNM_0sDOFRSTjN3Vk4zX2M/preview"
+        ),
+        "S02E05" => array(
+            "url" => "https://drive.google.com/file/d/0BzVJisNM_0sDZzRrWVBlb1kxbG8/preview"
+        ),
+        "S02E06" => array(
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDLXNUZlRhU3pKTnc/preview"
+        ),
+        "S02E07" => array(
+            "url" => "https://drive.google.com/file/d/0BzVJisNM_0sDY0hZMmR0OGF3cUE/preview"
+        ),
+        "S02E08" => array(
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDV0dzY1JQUW4yYTg/preview"
+        ),
+        "S02E09" => array(
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDbUxiRjRqUjdrSWc/preview"
+        ),
+        "S02E10" => array(
+            "url" => "https://drive.google.com/file/d/0BzVJisNM_0sDNXhUZzcxSEdSQlE/preview"
+        ),
+        "S02E11" => array(
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDeU0wdTFDXzZoNDg/preview"
+        ),
+        "S02E12" => array(
+            "url" => "https://drive.google.com/file/d/0BzVJisNM_0sDNVctclRmN2xvT0E/preview"
+        ),
+        "S02E13" => array(
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDQ3FXMUJZSDBwa0E/preview"
+        ),
+        "S02E14" => array(
+            "url" => "https://drive.google.com/file/d/0BzVJisNM_0sDeVlKUW5ES1RLOUU/preview"
+        ),
+        "S02E15" => array(
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDMUpMdUIyME5FTmc/preview"
+        ),
+        "S02E16" => array(
+            "url" => "https://drive.google.com/file/d/0BzVJisNM_0sDSWRBRThYS3Vsdlk/preview"
+        ),
+        "S02E17" => array(
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDQmlzbWJ6X0xBeDQ/preview"
+        ),
+        "S02E18" => array(
+            "url" => "https://drive.google.com/file/d/0BzVJisNM_0sDRUJ5a2ZEYUt6MXM/preview"
+        ),
+        "S02E19" => array(
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDS25Kdm9rN1h0aUE/preview"
+        ),
+        "S02E20" => array(
+            "url" => "https://drive.google.com/file/d/0BxaT3xbG4soIeW5JUzdSZVMxSG8/preview"
+        ),
+        "S02E21" => array(
+            "url" => "https://drive.google.com/file/d/0BxaT3xbG4soIWlRWd3pLMGFBLWM/preview"
+        ),
+        "S02E22" => array(
+            "url" => "https://docs.google.com/file/d/0BxaT3xbG4soIOVlVbVd2ZkZrdFU/preview"
+        )
+    );
 }

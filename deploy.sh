@@ -38,6 +38,6 @@ else
     exit;
 fi
 
-sshpass ssh -o "StrictHostKeyChecking no" -o ConnectTimeout=10 -i ~/.ssh/ishwar.pem ubuntu@54.148.57.96 "sudo cp -r /tmp/mysite /usr/share/nginx/mysite"
+sshpass ssh -o "StrictHostKeyChecking no" -o ConnectTimeout=10 -i ~/.ssh/ishwar.pem ubuntu@54.148.57.96 "sudo cp -r /tmp/mysite /usr/share/nginx/"
 
 
