@@ -10,6 +10,8 @@ else
     deploy=$1
 fi
 
+sshpass ssh -o "StrictHostKeyChecking no" -o ConnectTimeout=10 -i ~/.ssh/ishwar.pem ubuntu@54.148.57.96 "sudo rm -rf /tmp/mysite/*"
+
 if [ "$deploy" = "all" ];
 then
     echo "copying files to server";

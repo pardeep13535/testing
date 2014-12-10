@@ -134,13 +134,13 @@ class videosURLs {
             "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDS25Kdm9rN1h0aUE/preview"
         ),
         "S02E20" => array(
-            "url" => "https://drive.google.com/file/d/0BxaT3xbG4soIeW5JUzdSZVMxSG8/preview"
+            "url" => "https://drive.google.com/file/d/0BzVJisNM_0sDeW9GcDFfLUtOX0E/preview"
         ),
         "S02E21" => array(
-            "url" => "https://drive.google.com/file/d/0BxaT3xbG4soIWlRWd3pLMGFBLWM/preview"
+            "url" => "https://drive.google.com/file/d/0BzVJisNM_0sDQjA1ajFsN1NkdTg/preview"
         ),
         "S02E22" => array(
-            "url" => "https://docs.google.com/file/d/0BxaT3xbG4soIOVlVbVd2ZkZrdFU/preview"
+            "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDNWtXZWVLUEFqTms/preview"
         )
     );
 }
