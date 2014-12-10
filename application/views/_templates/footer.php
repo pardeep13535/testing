@@ -9,5 +9,7 @@
 
     <!-- our JavaScript -->
 <!--    <script src="--><?php //echo URL; ?><!--public/js/application.js"></script>-->
+ 	</div>
+    <div class="col-md-3"></div>
 </body>
 </html>

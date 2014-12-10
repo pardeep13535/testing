@@ -12,9 +12,6 @@ body {
     background-image: url(/data/backImage.jpg);
 }
 
-#middleBody {
-    background-color: rgba(5, 5, 5, 0.7);
-}
 table {
     font-size: 13px;
 }
@@ -43,8 +40,22 @@ table {
         margin-left : -250px; /* half of the width  */
 }
 
-.header {
-        position: fixed;
-        width: 100%;
-        z-index: 10000;
+#imgbox
+{
+    vertical-align : middle;
+    /*orientation: middle;*/
+    /*margin-left: -40%;*/
+    
+    position : absolute;
+    border: 1px solid #999;
+    background-color: rgba(144,144,144,1);
+   /* background : #FFFFFF;
+    filter: Alpha(Opacity=100);      */
+    visibility : hidden;
+    /*height : 500px;*/
+    /*width : 500px;*/
+    z-index : 0;
+    overflow : hidden;
+    text-align : center;
 }
+
