@@ -2,19 +2,16 @@
     <?php
     $category = explode(".", $_GET['category']);
 
-    require_once ROOT."/application/config/".$category[0].$category[1].".php";
-
-//    $conf = file_get_contents('http://' . $_SERVER['HTTP_HOST'] . "/application/config/" . $category[0] . $category[1] . ".json");
-
-//    $jsonconf = json_decode($conf, TRUE);
-    if (strcmp($category[0], "videos") == 0) {
-//        echo "<div id=\"videos\">";
+    $file = ROOT . "/application/config/" . $category[0] . $category[1] . ".php";
+    if (file_exists($file)) {
+        require_once $file;
         echo "<table><tr style='width: 250px; height: 100px'>";
         $counter = 0;
         foreach (videosURLs::$urlConfig as $key => $val) {
+            if(strcasecmp(substr($key,0,3), $category[2]) != 0) continue;
             $counter++;
 
-            echo "<td><a href=play.php?episode=" . $key . "&index=". videosURLs::$index . ">" . "<img src=\"data/".$category[1]."_logo.jpg\" width=\"100px\"><br>". videosURLs::$titleHead. $key . "</a></td>";
+            echo "<td><a href=play.php?episode=" . $key . "&index=" . videosURLs::$index . ">" . "<img src=\"data/" . $category[1] . "_logo.jpg\" width=\"100px\"><br>" . videosURLs::$titleHead . $key . "</a></td>";
             if ($counter == 5) {
                 $counter = 0;
                 echo "</tr><tr style='width: 20%; height: 100px'>";
@@ -22,7 +19,7 @@
         }
         echo "</tr></table>";
     } else {
-        require APP . 'controllers/error.php';
+        include_once ROOT . '/application/views/error/index.php';
     }
 
     ?>
