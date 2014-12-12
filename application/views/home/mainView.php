@@ -67,6 +67,29 @@
             </div>
         </div>
     </div>
+	<div class="category">
+        <div class="col-md-6" style="margin-bottom:10px">
+            <h3>DEXTER</h3><br/><img src="data/DEXTER.jpg" width=80%>
+        </div>
+        <div class="col-md-6" style="margin-bottom:10px;margin-top:60px">
+            <h5 font-color="white"> Dexter is a forensic blood spatter expert for the Miami Dade Police Department. He is the
+             main support for his sister. He has a steady girlfriend, with two kids who adore him. He also has an active 
+             "night life". Based on a code instilled in him by his foster father, Harry, he hunts down people who have escaped 
+             justice and makes sure they don't get away with a crime again.</h3>
+        </div>
+    </div>
+
+	<div class="category">
+		<div class="col-md-3">
+			<a href="/browse?category=videos.DEXTER.S01"><img src="data/DEXTER.jpg" width="50"><br/><h4>S01</h4></a>
+		</div>
+		<div class="col-md-3">
+			<a href="/browse?category=videos.DEXTER.S02"><img src="data/DEXTER.jpg" width="50"><br/><h4>S02</h4></a>
+		</div>
+		<div class="col-md-3">
+			<a href="/browse?category=videos.DEXTER.S03"><img src="data/DEXTER.jpg" width="50"><br/><h4>S03</h4></a>
+		</div>
+	</div>
 
     <div class="category">
         <div class="col-md-6" style="margin-bottom:10px">
@@ -77,13 +100,5 @@
         </div>
     </div>
 
-    <div class="category">
-        <div class="col-md-6" style="margin-bottom:10px">
-            <h3>DEXTER - COMING SOON to you</h3><br/><img src="data/DEXTER.jpg" width=80%>
-        </div>
-        <div class="col-md-6" style="margin-bottom:10px;margin-top:60px">
-            <h3 font-color="white">Tonight's the night </h3>
-        </div>
-    </div>
-
+    
 </div>
