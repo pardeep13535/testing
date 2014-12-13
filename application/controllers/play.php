@@ -23,7 +23,6 @@ class play extends Controller {
         $videoID = $_GET['index'] . $_GET['episode'];
         $sql = new MySQL();
         $sql->increment("videos", "views", $videoID);
-//        $sql->closeConnection();
         require APP . 'views/play/playView.php';
 
         require APP . 'views/_templates/footer.php';

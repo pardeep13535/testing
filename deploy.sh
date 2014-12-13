@@ -18,7 +18,6 @@ then
     scp -r -i ~/.ssh/ishwar.pem ./application  ubuntu@54.148.57.96:/tmp/mysite/application
     scp -r -i ~/.ssh/ishwar.pem ./data  ubuntu@54.148.57.96:/tmp/mysite/data
     scp -r -i ~/.ssh/ishwar.pem ./public  ubuntu@54.148.57.96:/tmp/mysite/public
-    scp -r -i ~/.ssh/ishwar.pem ./play.php  ubuntu@54.148.57.96:/tmp/mysite/
 elif [ "$deploy" = "application" ]
 then
     echo "copying files to server";
@@ -31,10 +30,6 @@ elif [ "$deploy" = "public" ]
 then
     echo "copying files to server";
     scp -r -i ~/.ssh/ishwar.pem ./public  ubuntu@54.148.57.96:/tmp/mysite/public
-elif [ "$deploy" = "play.php" ]
-then
-    echo "copying files to server";
-    scp -r -i ~/.ssh/ishwar.pem ./play.php  ubuntu@54.148.57.96:/tmp/mysite/
 else
     echo "wrong argument, valid is all | application | data | public | play.php ";
     exit;

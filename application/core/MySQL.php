@@ -15,6 +15,7 @@ class MySQL {
     private $username; // MySQL Username
     private $password; // MySQL Password
     private $database; // MySQL Database
+    private $port;
 
     private $databaseLink; // Database Connection Link
 
@@ -27,7 +28,9 @@ class MySQL {
         $this->database = $database;
         $this->username = $username;
         $this->password = $password;
-        $this->hostname = $hostname . ':' . $port;
+        $this->hostname = $hostname;
+        $this->port = $port;
+
 
         $this->Connect($persistant);
     }
@@ -49,19 +52,15 @@ class MySQL {
     private function Connect($persistant = false) {
         $this->CloseConnection();
 
-        if ($persistant) {
-            $this->databaseLink = mysql_pconnect($this->hostname, $this->username, $this->password);
-        } else {
-            $this->databaseLink = mysql_connect($this->hostname, $this->username, $this->password);
-        }
+            $this->databaseLink = mysqli_connect($this->hostname, $this->username, $this->password, $this->database, $this->port);
 
         if (!$this->databaseLink) {
-            $this->lastError = 'Could not connect to server: ' . mysql_error($this->databaseLink);
+            $this->lastError = 'Could not connect to server: ' . mysqli_error($this->databaseLink);
             return false;
         }
 
         if (!$this->UseDB()) {
-            $this->lastError = 'Could not connect to database: ' . mysql_error($this->databaseLink);
+            $this->lastError = 'Could not connect to database: ' . mysqli_error($this->databaseLink);
             return false;
         }
 
@@ -72,8 +71,8 @@ class MySQL {
 
     // Select database to use
     private function UseDB() {
-        if (!mysql_select_db($this->database, $this->databaseLink)) {
-            $this->lastError = 'Cannot select database: ' . mysql_error($this->databaseLink);
+        if (!mysqli_select_db($this->databaseLink, $this->database)) {
+            $this->lastError = 'Cannot select database: ' . mysqli_error($this->databaseLink);
             return false;
         } else {
             return true;
@@ -81,20 +80,20 @@ class MySQL {
     }
 
 
-    // Performs a 'mysql_real_escape_string' on the entire array/string
+    // Performs a 'mysqli_real_escape_string' on the entire array/string
     private function SecureData($data, $types) {
         if (is_array($data)) {
             $i = 0;
             foreach ($data as $key => $val) {
                 if (!is_array($data[$key])) {
                     $data[$key] = $this->CleanData($data[$key], $types[$i]);
-                    $data[$key] = mysql_real_escape_string($data[$key], $this->databaseLink);
+                    $data[$key] = mysqli_real_escape_string($this->databaseLink, $data[$key]);
                     $i++;
                 }
             }
         } else {
             $data = $this->CleanData($data, $types);
-            $data = mysql_real_escape_string($data, $this->databaseLink);
+            $data = mysqli_real_escape_string($this->databaseLink, $data);
         }
         return $data;
     }
@@ -160,10 +159,12 @@ class MySQL {
     // Executes MySQL query
     public function executeSQL($query) {
         $this->lastQuery = $query;
-        if ($this->result = mysql_query($query, $this->databaseLink)) {
-            if (gettype($this->result) === 'resource') {
-                $this->records = @mysql_num_rows($this->result);
-                $this->affected = @mysql_affected_rows($this->databaseLink);
+//        echo $query;
+
+        if ($this->result = mysqli_query($this->databaseLink, $query)) {
+            if (gettype($this->result) === "object" ) {
+                $this->records = mysqli_num_rows($this->result);
+                $this->affected = mysqli_affected_rows($this->databaseLink);
             } else {
                 $this->records = 0;
                 $this->affected = 0;
@@ -177,21 +178,21 @@ class MySQL {
             }
 
         } else {
-            $this->lastError = mysql_error($this->databaseLink);
+            $this->lastError = mysqli_error($this->databaseLink);
             return false;
         }
     }
 
     public function commit() {
-        return mysql_query("COMMIT", $this->databaseLink);
+        return mysqli_query($this->databaseLink, "COMMIT");
     }
 
     public function rollback() {
-        return mysql_query("ROLLBACK", $this->databaseLink);
+        return mysqli_query($this->databaseLink, "ROLLBACK");
     }
 
     public function setCharset($charset = 'UTF8') {
-        return mysql_set_charset($this->SecureData($charset, 'string'), $this->databaseLink);
+        return mysqli_set_charset($this->databaseLink, $this->SecureData($charset, 'string'));
     }
 
     // Adds a record to the database based on the array key names
@@ -341,7 +342,7 @@ class MySQL {
 
     // 'Arrays' a single result
     public function arrayResult() {
-        $this->arrayedResult = mysql_fetch_assoc($this->result) or die (mysql_error($this->databaseLink));
+        $this->arrayedResult = mysqli_fetch_assoc($this->result) or die (mysqli_error($this->databaseLink));
         return $this->arrayedResult;
     }
 
@@ -353,7 +354,7 @@ class MySQL {
         }
 
         $this->arrayedResult = array();
-        while ($data = mysql_fetch_assoc($this->result)) {
+        while ($data = mysqli_fetch_assoc($this->result)) {
             $this->arrayedResult[] = $data;
         }
         return $this->arrayedResult;
@@ -365,7 +366,7 @@ class MySQL {
             unset($this->arrayedResult);
         }
         $this->arrayedResult = array();
-        while ($row = mysql_fetch_assoc($this->result)) {
+        while ($row = mysqli_fetch_assoc($this->result)) {
             foreach ($row as $theKey => $theValue) {
                 $this->arrayedResult[$row[$key]][$theKey] = $theValue;
             }
@@ -375,7 +376,7 @@ class MySQL {
 
     // Returns last insert ID
     public function lastInsertID() {
-        return mysql_insert_id($this->databaseLink);
+        return mysqli_insert_id($this->databaseLink);
     }
 
     // Return number of rows
@@ -389,7 +390,7 @@ class MySQL {
         if ($this->databaseLink) {
             // Commit before closing just in case :)
             $this->commit();
-            mysql_close($this->databaseLink);
+            mysqli_close($this->databaseLink);
         }
     }
 }
