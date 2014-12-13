@@ -23,7 +23,7 @@ class MySQL {
      * Class Constructor *
      * *******************/
 
-    function __construct($database = "myDB", $username = "root", $password = "", $hostname = 'localhost', $port = 3306, $persistant = false) {
+    function __construct($database = "myDB", $username = "root", $password = "ishwarpk", $hostname = 'localhost', $port = 3306, $persistant = false) {
         $this->database = $database;
         $this->username = $username;
         $this->password = $password;
