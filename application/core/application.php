@@ -1,7 +1,6 @@
 <?php
 
-class Application
-{
+class Application {
     /** @var null The controller */
     private $url_controller = null;
 
@@ -10,21 +9,23 @@ class Application
 
     /** @var array URL parameters */
     private $url_params = array();
-    private $debug=false;
+    private $debug = false;
 
     /**
      * "Start" the application:
      * Analyze the URL elements and calls the according controller/method or the fallback
      */
-    public function __construct()
-    {
+    public function __construct() {
 
         // change the controller based on url.
-        if(preg_match("/^\/browse/",$_SERVER['REQUEST_URI'])) {
-            if ($this->debug) echo "browse matched";
+        if (preg_match("/^\/browse/", $_SERVER['REQUEST_URI'])) {
+            if ($this->debug) echo "browse controller matched";
             $this->url_controller = "browse";
-        } else if(preg_match("/^\//",$_SERVER['REQUEST_URI'])) {
-            if ($this->debug) echo "home matched";
+        } else if (preg_match("/^\/play/", $_SERVER['REQUEST_URI'])) {
+            if ($this->debug) echo "play controller matched";
+            $this->url_controller = "play";
+        } else if (preg_match("/^\//", $_SERVER['REQUEST_URI'])) {
+            if ($this->debug) echo "home controller matched";
             $this->url_controller = "home";
         } else {
             if ($this->debug) echo "browse not matched";
@@ -51,7 +52,7 @@ class Application
             // check for method: does such a method exist in the controller ?
             if (method_exists($this->url_controller, $this->url_action)) {
 
-                if(!empty($this->url_params)) {
+                if (!empty($this->url_params)) {
                     // Call the method and pass arguments to it
                     call_user_func_array(array($this->url_controller, $this->url_action), $this->url_params);
                 } else {
@@ -60,11 +61,10 @@ class Application
                 }
 
             } else {
-                if(strlen($this->url_action) == 0) {
+                if (strlen($this->url_action) == 0) {
                     // no action defined: call the default index() method of a selected controller
                     $this->url_controller->index();
-                }
-                else {
+                } else {
                     // defined action not existent: show the error page
                     require APP . 'controllers/error.php';
                     $page = new Error();
@@ -81,8 +81,7 @@ class Application
     /**
      * Get and split the URL
      */
-    private function splitUrl()
-    {
+    private function splitUrl() {
         if (isset($_GET['url'])) {
 
             // split URL
