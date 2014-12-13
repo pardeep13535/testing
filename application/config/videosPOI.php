@@ -141,6 +141,34 @@ class videosURLs {
         ),
         "S02E22" => array(
             "url" => "https://docs.google.com/file/d/0BzVJisNM_0sDNWtXZWVLUEFqTms/preview"
+        ),
+
+        "S04E01" => array(
+            "url" => "https://docs.google.com/file/d/0B3XTI5IB57nzTFJIRUFGVDktVFk/preview"
+        ),
+        "S04E02" => array(
+            "url" => "https://docs.google.com/file/d/0B3XTI5IB57nzVWFQRjQyQUxWVzg/preview"
+        ),
+        "S04E03" => array(
+            "url" => "https://docs.google.com/file/d/0B3XTI5IB57nzeVdNcEQ5UkV2M1E/preview"
+        ),
+        "S04E04" => array(
+            "url" => "https://docs.google.com/file/d/0B3XTI5IB57nzNVlzNV9CdTZoUkE/preview"
+        ),
+        "S04E05" => array(
+            "url" => "https://docs.google.com/file/d/0B3XTI5IB57nzRFdCSzc5TFdxT1k/preview"
+        ),
+        "S04E06" => array(
+            "url" => "https://docs.google.com/file/d/0B3XTI5IB57nzTmxpcVdsZEx1d2M/preview"
+        ),
+        "S04E07" => array(
+            "url" => "https://docs.google.com/file/d/0B3XTI5IB57nzdFY1VDNtZEVxRUE/preview"
+        ),
+        "S04E08" => array(
+            "url" => "https://docs.google.com/file/d/0B3XTI5IB57nzakEyQk05Qk1sbTQ/preview"
+        ),
+        "S04E09" => array(
+            "url" => "https://docs.google.com/file/d/0B3XTI5IB57nzaWdPeGNOZkJsZHc/preview"
         )
     );
 }
